@@ -42,8 +42,8 @@ mongoose.connection.once("open", () => {
 });
 
 // animals controller
-const animalsController = require("./controllers/animals.js");
-app.use("/animals", animalsController);
+// const animalsController = require("./controllers/animals.js");
+// app.use("/animals", animalsController);
 
 app.listen(PORT, () => {
   console.log("celebrations happening on port", PORT);
